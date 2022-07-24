@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- 
+        id는 한번만 선택자
+        class는 여러개 선택자
+
+        class 선택자에 포함된 속성중에 id를 추가하면 class 내에 예외를 설정
+    -->
+    <style>
+        #first{
+            color: green;
+        }
+        .js{
+            font-weight: bold;
+            color: red;
+        }
+        span{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1><a href="#">WEB</a></h1>
+    <h2 style="color:powderblue; background-color:coral;">JavaScript</h2>
+    <p>
+        <span id="first" class="js">JavaScript</span> hello <span class="js">JavaScript</span> Bye <span> chicken</span> mississipi programming language test text comprehensible understandable
+
+    </p>
+    
+</body>
+</html>
